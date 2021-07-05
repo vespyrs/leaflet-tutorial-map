@@ -11,7 +11,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 var circle = L.circle([38.76, -77.03], {
     color: 'pink',
     fillColor: '#f02',
-    fillOpacity: 0.5,
+    fillOpacity: 0.2,
     radius: 1000
 }).addTo(map);
 
